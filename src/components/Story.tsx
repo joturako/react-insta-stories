@@ -112,7 +112,7 @@ const Story = (props: StoryProps) => {
 		<div style={{ ...styles.story, width: width, height: height }}>
 			{getStoryContent()}
 			{isHeader && (
-				<div style={{ position: "absolute", left: 12, top: 20, zIndex: 19 }}>
+				<div style={{ position: "absolute", left: 12, top: 20, zIndex: 1000, width: "calc(100% - 24px)" }}>
 					{typeof props.story === "object" ? (
 						header ? (
 							header(props.story.header)
