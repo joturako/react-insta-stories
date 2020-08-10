@@ -51,5 +51,7 @@
 	"peerDependencies": {
 		"react": "^16.8.2"
 	},
-	"dependencies": {}
+	"dependencies": {
+		"isomorphic-style-loader": "^5.1.0"
+	}
 }

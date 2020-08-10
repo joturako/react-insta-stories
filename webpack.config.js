@@ -23,7 +23,7 @@ module.exports = {
             {
                 test: /\.css$/i,
                 use: [
-                    'style-loader',
+                    'isomorphic-style-loader',
                     '@teamsupercell/typings-for-css-modules-loader',
                     {
                         loader: 'css-loader',
